@@ -1,0 +1,94 @@
+{
+    "movcon": [
+        {
+            "lat": "47.0847522",
+            "long": "8.4440051",
+            "callsign": "INTEL",
+            "opstate": "OPERATIONAL",
+            "message": "STATIONARY",
+            "ttl": "120",
+            "timestamp": "2024-05-13T14:30:18.422Z"
+        },
+        {
+            "lat": "47.3768866",
+            "long": "8.541694",
+            "callsign": "INTEL",
+            "opstate": "OPERATIONAL",
+            "message": "STATIONARY",
+            "ttl": "15",
+            "timestamp": "2024-05-13T16:39:23.277Z"
+        },
+        {
+            "lat": "47.3768866",
+            "long": "8.541694",
+            "callsign": "INTEL",
+            "opstate": "OPERATIONAL",
+            "message": "MORE STATIONARY",
+            "ttl": "15",
+            "timestamp": "2024-05-13T16:39:32.889Z"
+        },
+        {
+            "lat": "47.0847546",
+            "long": "8.4440014",
+            "callsign": "CARGO",
+            "opstate": "OPERATIONAL",
+            "message": "TEST",
+            "ttl": "15",
+            "timestamp": "2024-05-13T16:39:41.285Z"
+        },
+        {
+            "lat": "47.0847546",
+            "long": "8.4440014",
+            "callsign": "INTEL",
+            "opstate": "OPERATIONAL",
+            "message": "asfadsfdsfasdfasd",
+            "ttl": "25",
+            "timestamp": "2024-05-13T16:41:06.073Z"
+        },
+        {
+            "lat": "47.0847685",
+            "long": "8.4439895",
+            "callsign": "EAGLE THREE",
+            "opstate": "OPERATIONAL",
+            "message": "asdfasf",
+            "ttl": "12",
+            "timestamp": "2024-05-13T18:12:22.189Z"
+        },
+        {
+            "lat": "47.0847685",
+            "long": "8.4439895",
+            "callsign": "CARGO",
+            "opstate": "OPERATIONAL",
+            "message": "JETZT ABER",
+            "ttl": "14",
+            "timestamp": "2024-05-13T18:12:40.081Z"
+        },
+        {
+            "lat": "47.084767",
+            "long": "8.4439873",
+            "callsign": "CHARLIE MED TWO BRAVO",
+            "opstate": "OPERATIONAL",
+            "message": "asfasdfdsffdsfasfsdaf",
+            "ttl": "15",
+            "timestamp": "2024-05-13T18:13:17.521Z"
+        },
+        {
+            "lat": "47.0847826",
+            "long": "8.4439323",
+            "callsign": "INTEL",
+            "opstate": "OPERATIONAL",
+            "message": "TEST",
+            "ttl": "5",
+            "timestamp": "2024-05-16T13:42:35.320Z"
+        },
+        {
+            "lat": 47.084873,
+            "long": 8.333177,
+            "callsign": "CARGO",
+            "opstate": "OPERATIONAL",
+            "message": "TEST",
+            "ttl": "60",
+            "timestamp": "2024-05-16T14:04:19.976Z"
+        }
+    ]
+}

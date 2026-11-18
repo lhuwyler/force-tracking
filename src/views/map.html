@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>FORCETRACK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://www.map.army/?layer=https://BASEURL/CHANGEME/Layer.milxly"  
+width="800" height="600" frameborder="0" style="border:0"></iframe>  
+<script>
+    setInterval(function(){
+    location.reload();
+}, 60000); 
+</script>
+</body>

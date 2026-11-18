@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <MilXDocument_Layer xmlns="http://gs-soft.com/MilX/V3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <MssLibraryVersionTag>2024.03.24</MssLibraryVersionTag>
+        <MilXLayer>
+            <Name>00_BLUEFORCE_dd.mm</Name>
+            <LayerType>Normal</LayerType>
+            <GraphicList>
+                
+    <MilXGraphic>
+        <MssStringXML>&lt;Symbol ID="SFGPE----------"&gt;&lt;Attribute ID="T"&gt;3&lt;/Attribute&gt;&lt;Attribute ID="XO"&gt;$003333CC&lt;/Attribute&gt;&lt;Attribute ID="V"&gt;CARGO&lt;/Attribute&gt;&lt;Attribute ID="G"&gt;TEST&lt;/Attribute&gt;&lt;Attribute ID="H"&gt;60min&lt;/Attribute&gt;&lt;Attribute ID="XE"&gt;9SCHSAC--------&lt;/Attribute&gt;&lt;Attribute ID="XF"&gt;&lt;/Attribute&gt;&lt;/Symbol&gt;</MssStringXML>
+        <Name>CARGObkc9r</Name>
+        <PointList>
+            <Point>
+                <X>8.333177</X>
+                <Y>47.084873</Y>
+            </Point>
+        </PointList>
+    </MilXGraphic>
+ 
+    <MilXGraphic>
+        <MssStringXML>&lt;Symbol ID="SFGPE----------"&gt;&lt;Attribute ID="T"&gt;3&lt;/Attribute&gt;&lt;Attribute ID="XO"&gt;$003333CC&lt;/Attribute&gt;&lt;Attribute ID="V"&gt;INTEL&lt;/Attribute&gt;&lt;Attribute ID="G"&gt;TEST&lt;/Attribute&gt;&lt;Attribute ID="H"&gt;5min&lt;/Attribute&gt;&lt;Attribute ID="XE"&gt;9SCHSAB--------&lt;/Attribute&gt;&lt;Attribute ID="XF"&gt;&lt;/Attribute&gt;&lt;/Symbol&gt;</MssStringXML>
+        <Name>INTELiibfn</Name>
+        <PointList>
+            <Point>
+                <X>8.4439323</X>
+                <Y>47.0847826</Y>
+            </Point>
+        </PointList>
+    </MilXGraphic>
+ 
+    <MilXGraphic>
+        <MssStringXML>&lt;Symbol ID="SFGPEV---------"&gt;&lt;Attribute ID="T"&gt;3&lt;/Attribute&gt;&lt;Attribute ID="XO"&gt;$003333CC&lt;/Attribute&gt;&lt;Attribute ID="V"&gt;CHARLIE MED TWO BRAVO&lt;/Attribute&gt;&lt;Attribute ID="G"&gt;asfasdfdsffdsfasfsdaf&lt;/Attribute&gt;&lt;Attribute ID="H"&gt;15min&lt;/Attribute&gt;&lt;Attribute ID="XE"&gt;9SCHSHSWAT-----&lt;/Attribute&gt;&lt;Attribute ID="XF"&gt;&lt;/Attribute&gt;&lt;/Symbol&gt;</MssStringXML>
+        <Name>CHARLIE MED TWO BRAVOuwq5q</Name>
+        <PointList>
+            <Point>
+                <X>8.4439873</X>
+                <Y>47.084767</Y>
+            </Point>
+        </PointList>
+    </MilXGraphic>
+ 
+    <MilXGraphic>
+        <MssStringXML>&lt;Symbol ID="SFGPE----------"&gt;&lt;Attribute ID="T"&gt;3&lt;/Attribute&gt;&lt;Attribute ID="XO"&gt;$003333CC&lt;/Attribute&gt;&lt;Attribute ID="V"&gt;EAGLE THREE&lt;/Attribute&gt;&lt;Attribute ID="G"&gt;asdfasf&lt;/Attribute&gt;&lt;Attribute ID="H"&gt;12min&lt;/Attribute&gt;&lt;Attribute ID="XE"&gt;9SCHSAC--------&lt;/Attribute&gt;&lt;Attribute ID="XF"&gt;&lt;/Attribute&gt;&lt;/Symbol&gt;</MssStringXML>
+        <Name>EAGLE THREEcvh5r</Name>
+        <PointList>
+            <Point>
+                <X>8.4439895</X>
+                <Y>47.0847685</Y>
+            </Point>
+        </PointList>
+    </MilXGraphic>
+
+            </GraphicList>
+            <CoordSystemType>WGS84</CoordSystemType>
+            <SymbolSize>12.9646</SymbolSize>
+        </MilXLayer>
+    </MilXDocument_Layer>

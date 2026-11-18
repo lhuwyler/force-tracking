@@ -1,0 +1,76 @@
+{% extends "_base.html" %}
+
+{% block main %}
+<form action="#" method="POST">
+    <label>Koordinaten (automatisch ermittelt)</label>
+    <input type="text" name="lat" value="LOADING" readonly>
+    <input type="text" name="long" value="LOADING" readonly>
+
+    <label>Callsign / Formation</label>
+    <select name="callsign" required>
+        <option value="" default>bitte wählen</option>
+        <option>BROKER ONE</option>
+        <option>BROKER TWO</option>
+        <option>CARGO</option>
+        <option>CHARLIE MED ONE ALPHA</option>
+        <option>CHARLIE MED ONE BRAVO</option>
+        <option>CHARLIE MED TWO ALPHA</option>
+        <option>CHARLIE MED TWO BRAVO</option>
+        <option>CHARLIE MIKE ONE ALPHA</option>
+        <option>CHARLIE MIKE ONE BRAVO</option>
+        <option>CHARLIE MIKE ONE CARGO</option>
+        <option>CHARLIE MIKE TWO ALPHA</option>
+        <option>CHARLIE MIKE TWO BRAVO</option>
+        <option>CHARLIE MIKE TWO CARGO</option>
+        <option>CHIEF RUSH</option>
+        <option>EAGLE FIVE</option>
+        <option>EAGLE FOUR</option>
+        <option>EAGLE ONE</option>
+        <option>EAGLE SEVEN</option>
+        <option>EAGLE SIX</option>
+        <option>EAGLE THREE</option>
+        <option>EAGLE TWO</option>
+        <option>HAWK</option>
+        <option>INTEL</option>
+        <option>KEVIN</option>
+        <option>LIGHTNING</option>
+        <option>MAJOLA</option>
+        <option>MEDICO DUE PICCOLO</option>
+        <option>MEDICO DUE</option>
+        <option>MEDICO UNO PICCOLO</option>
+        <option>MEDICO UNO</option>
+        <option>QUEEN PICCOLO</option>
+        <option>QUEEN</option>
+        <option>REDOC</option>
+        <option>REPE PICCOLO</option>
+        <option>REPE</option>
+        <option>SIERRA</option>
+        <option>THUNDER</option>
+    </select>
+
+    <label>Meldung</label>
+    <input type="text" name="message" maxlength="19" required>
+
+    <label>Zeit bis zur nächsten Meldung (Minuten)</label>
+    <input type="number" name="ttl" min="0" max="1440" required>
+
+    <br>
+    <button type="submit">SENDEN</button>
+
+    <script>
+        let lat = document.getElementsByName("lat")[0]
+        let long = document.getElementsByName("long")[0]
+        navigator.geolocation.getCurrentPosition(
+            position => { 
+                lat.value = position.coords.latitude
+                long.value = position.coords.longitude
+            },
+            err => {
+                console.log(err)
+                lat.value = "ERROR"
+                long.value = err.message
+            }
+        )
+    </script>
+</form>
+{% endblock %}

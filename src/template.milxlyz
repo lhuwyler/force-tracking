@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MilXDocument_Layer xmlns="http://gs-soft.com/MilX/V3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MssLibraryVersionTag>2024.03.24</MssLibraryVersionTag>
+	<MilXLayer>
+		<Name>00_BLUEFORCE_dd.mm</Name>
+		<LayerType>Normal</LayerType>
+		<GraphicList>
+			{{ GRAPHICS }}
+		</GraphicList>
+		<CoordSystemType>WGS84</CoordSystemType>
+		<SymbolSize>12.9646</SymbolSize>
+	</MilXLayer>
+</MilXDocument_Layer>

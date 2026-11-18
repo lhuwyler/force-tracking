@@ -1,0 +1,15 @@
+{% extends "_base.html" %}
+
+{% block main %}
+    {% for log in logs %}
+        <div class="log">
+            <p><sub>{{log.timestamp | date("DD.MM.YYYY HH.mm z") }} ({{log.ttl}}min)</sub></p>
+            <p><b>{{log.callsign}}</b>: {{log.message}} </p>
+        </div>
+    {% endfor %}
+    <script>
+        setInterval(function(){
+        location.reload();
+    }, 30000); 
+    </script>
+{% endblock %}

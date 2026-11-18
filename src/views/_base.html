@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>FORCETRACK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+        body {
+            font-family: arial;
+            font-size: 14px;
+        }
+        .wrapper {
+            padding: 0 20px;
+            margin: 0 auto;
+        }
+        label {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px;
+            color: #ffffff;
+            background-color: #000000;
+        }
+        input, select, button, textarea {
+            display: block;
+            width: 100%;
+            font-size: 14px;
+            padding: 10px;
+            color: #000000;
+            background-color: #ffffff;
+            border: 1px solid black;
+            border-radius: 0;
+        }
+        select {
+            -webkit-appearance: initial;
+        }
+        input:read-only {
+            background-color: #cccccc;
+            border-top: 0;
+        }
+        
+        button {
+            background-color: #25853f;
+            cursor: pointer;
+            padding: 15px;
+            color: #ffffff;
+        }
+        .message {
+            color: #ffffff;
+            background-color: #25853f;
+            padding: 20px;
+        }
+        .log {
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    {% if message %}
+        <div class="message">
+            {{ message }}
+        </div>
+    {% endif %}
+    <div class="wrapper">
+        <h1>FORCETRACK</h1>
+
+        {% block main %}
+        {% endblock %}
+    </div>
+</body>
