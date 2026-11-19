@@ -1,3 +1,6 @@
+## How it works
+![flow](./diagram.png)
+
 ## Getting started
 Replace prefix (shared secret) and base url in the following files:
 - in index.js, line 12
